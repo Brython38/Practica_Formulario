@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css2?family=Jersey+25&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../recursos/wild-wolf-howling-on-the-hillside-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+section{
+    text-align: center;
+    background-color: rgb(255, 255, 255, .4);
+    padding: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: "Jersey 25", sans-serif;
+}
+
+header{
+    margin: 15px;
+    font-size: 30px;
+}
+
+p{
+    margin: 15px;
+    font-size: 20px;
+}
+
+button{
+    width: 80%;
+    background-color: rgb(128, 128, 128, .4);
+    border-radius: 40px;
+    padding: 15px;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: darkorange;
+    font-weight: bolder;
+    font-family: "Jersey 25", sans-serif;
+}
